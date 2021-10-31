@@ -48,7 +48,7 @@ jobs:
     environment: production
 
     steps:
-    - name: Checkout
+    - name: Checkout code
       uses: actions/checkout@v2
 
     - name: Configure AWS credentials
