@@ -23,6 +23,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # tell the port number the container should expose
+EXPOSE 5000
 
 
 # run the command
