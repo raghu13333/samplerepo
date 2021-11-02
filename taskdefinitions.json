@@ -7,13 +7,7 @@
       "environmentFiles": null,
       "logConfiguration": null,
       "entryPoint": null,
-      "portMappings": [
-        {
-          "hostPort": 3000,
-          "protocol": "tcp",
-          "containerPort": 5000
-        }
-      ],
+      "portMappings": [],
       "command": null,
       "linuxParameters": null,
       "cpu": 0,
@@ -29,7 +23,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "036761224802.dkr.ecr.ap-southeast-1.amazonaws.com/samplerecrrepo:eef30b0ebbd1d6bc239949486d533c8c20c246ea",
+      "image": "036761224802.dkr.ecr.ap-southeast-1.amazonaws.com/samplerecrrepo:9cc9493666bd68d68909b8abf2473e73629a5745",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -56,8 +50,8 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:036761224802:task-definition/taskdefinition:6",
-  "family": "taskdefinition",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:036761224802:task-definition/taskdefinitions:1",
+  "family": "taskdefinitions",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -85,7 +79,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": "1024",
-  "revision": 6,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
